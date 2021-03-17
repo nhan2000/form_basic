@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: #DDD;
+    font-size: 16px;
+    color: #222;
+    font-weight: 500;
+}
+
+.container {
+    width: 600px;
+    height: 400px;
+    background: #FFF;
+    border-radius: 2px;
+    position: relative;
+    margin: 5% auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.container .left {
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 40px;
+    top: 0;
+    left: 0;
+    /* background: #F6E3CE; */
+}
+
+h1 {
+    font-size: 28px;
+    margin: 20px;
+    font-weight: 300;
+}
+
+input[type="text"],
+input[type="password"] {
+    display: block;
+    margin-bottom: 20px;
+    border: none;
+    box-sizing: border-box;
+    border-bottom: 1px solid #AAA;
+    padding: 4px;
+    font-weight: 400;
+    width: 220px;
+    height: 30px;
+    border-radius: 5px;
+    transition: 0.6s ease;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-bottom: 2px solid #14768B;
+    color: #14768B;
+    transition: 0.2s ease;
+}
+
+input[type="submit"] {
+    width: 130px;
+    height: 35px;
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 15px;
+    background: #14768B;
+    border-radius: 3px;
+    border: none;
+    margin-left: 25px;
+}
+
+input[type="submit"]:hover {
+    background: #8AD5E6;
+    color: #2D3132;
+}
+
+.container .or {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    top: 200px;
+    left: 280px;
+    position: absolute;
+    background: #DDD;
+    text-align: center;
+    line-height: 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.container .right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0 2px 2px 0;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 300px;
+    height: 400px;
+    background: url('https://goo.gl/YbktSj');
+    background-size: cover;
+    background-position: center;
+}
+
+.container .right .loginwith {
+    display: block;
+    margin-bottom: 40px;
+    font-size: 28px;
+    color: #63696A;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.right .sign_up_with {
+    margin-bottom: 25px;
+    width: 180px;
+    height: 36px;
+    font-weight: 500px;
+    font-family: sans-serif;
+    border-radius: 3px;
+    cursor: pointer;
+    border: none;
+    color: #FFF;
+}
+
+.right .sign_up_with:hover,
+.right .sign_up_with:focus {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    transition: 0.2s ease;
+}
+
+.right .facebook {
+    background: #32508E;
+}
+
+.right .twitter {
+    background: #55ACEE;
+}
+
+.right .google {
+    background: #DD4B39;
+}
